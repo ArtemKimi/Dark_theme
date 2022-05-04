@@ -1,0 +1,32 @@
+body {
+	background-color: #fff;
+}
+
+.top__title{
+	color: #222;
+}
+
+.content{
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.title__card{
+	color: #222;
+}
+
+.text{
+	color: #222;
+}
+
+.theme{
+	background: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.change-theme[data-theme="dark"]{
+	display: block;
+}
+.change-theme[data-theme="light"]{
+	display: none;
+}
